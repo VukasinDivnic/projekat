@@ -1,0 +1,45 @@
+.TextBoxPocetna {
+  display: grid ;
+  font-size: 1.9vw;
+  text-align: center;
+  color: white;
+  grid-template-columns: 1fr 1fr;
+  background-color: #6b2929;
+  margin-top: 100px;
+  height: 340px;
+  margin-bottom: 100px;
+}
+.tekstIzTextBoxa{
+  margin-bottom: 50px;
+}
+.akcija{
+  margin-top: 90px;
+}
+html, body {
+  height: 100%;
+  
+}
+
+.footer {
+  background-color: #440b0b ;
+  color: white;
+  height: 400px;
+  position: relative;
+  width: 100%;
+  
+}
+.footer .footer-content{
+  border:1px solid black ;
+  height: 350px;
+  display: flex;
+  text-align: center;
+}
+
+.footer .footer-content .footer-section{
+  flex:1;
+  padding: 25px;
+  border: 1px solid white;
+
+}
+
+
